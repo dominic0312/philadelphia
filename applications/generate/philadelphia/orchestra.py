@@ -56,6 +56,8 @@ def _type(field, code_set):
         return field.type_
     if code_set.type_ == 'char' and max(len(code.value) for code in code_set.codes) > 1:
         return 'String'
+    if code_set.type_ == 'String' and all(len(code.value) == 1 for code in code_set.codes):
+        return 'char'
     return code_set.type_
 
 

@@ -96,6 +96,8 @@ def _type(field_type, values):
     type_ = _TYPES.get(field_type)
     if type_ == 'char' and values and max(len(value.value) for value in values) > 1:
         return 'String'
+    if type_ == 'String' and all(len(value.value) == 1 for value in values):
+        return 'char'
     return type_
 
 
