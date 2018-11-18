@@ -21,7 +21,7 @@ class FIXTimestamps {
 
     private static final ThreadLocal<char[]> BUFFER = ThreadLocal.withInitial(() -> new char[21]);
 
-    public static void append(ReadableDateTime t, StringBuilder s) {
+    static void append(ReadableDateTime t, StringBuilder s) {
         char[] buffer = BUFFER.get();
 
         setDigits(buffer, t.getYear(), 0, 4);
