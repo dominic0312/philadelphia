@@ -47,9 +47,9 @@ public class FIXLatestEnumerations {
      */
     public static class AdvTransTypeValues {
 
-        public static final String New     = "N";
-        public static final String Cancel  = "C";
-        public static final String Replace = "R";
+        public static final char New     = 'N';
+        public static final char Cancel  = 'C';
+        public static final char Replace = 'R';
 
         private AdvTransTypeValues() {
         }
@@ -167,38 +167,38 @@ public class FIXLatestEnumerations {
      */
     public static class SecurityIDSourceValues {
 
-        public static final String CUSIP                               = "1";
-        public static final String SEDOL                               = "2";
-        public static final String QUIK                                = "3";
-        public static final String ISINNumber                          = "4";
-        public static final String RICCode                             = "5";
-        public static final String ISOCurrencyCode                     = "6";
-        public static final String ISOCountryCode                      = "7";
-        public static final String ExchangeSymbol                      = "8";
-        public static final String ConsolidatedTapeAssociation         = "9";
-        public static final String BloombergSymbol                     = "A";
-        public static final String Wertpapier                          = "B";
-        public static final String Dutch                               = "C";
-        public static final String Valoren                             = "D";
-        public static final String Sicovam                             = "E";
-        public static final String Belgian                             = "F";
-        public static final String Common                              = "G";
-        public static final String ClearingHouse                       = "H";
-        public static final String ISDAFpMLSpecification               = "I";
-        public static final String OptionPriceReportingAuthority       = "J";
-        public static final String ISDAFpMLURL                         = "K";
-        public static final String LetterOfCredit                      = "L";
-        public static final String MarketplaceAssignedIdentifier       = "M";
-        public static final String MarkitREDEntityCLIP                 = "N";
-        public static final String MarkitREDPairCLIP                   = "P";
-        public static final String CFTCCommodityCode                   = "Q";
-        public static final String ISDACommodityReferencePrice         = "R";
-        public static final String FinancialInstrumentGlobalIdentifier = "S";
-        public static final String LegalEntityIdentifier               = "T";
-        public static final String Synthetic                           = "U";
-        public static final String FidessaInstrumentMnemonic           = "V";
-        public static final String IndexName                           = "W";
-        public static final String UniformSymbol                       = "X";
+        public static final char CUSIP                               = '1';
+        public static final char SEDOL                               = '2';
+        public static final char QUIK                                = '3';
+        public static final char ISINNumber                          = '4';
+        public static final char RICCode                             = '5';
+        public static final char ISOCurrencyCode                     = '6';
+        public static final char ISOCountryCode                      = '7';
+        public static final char ExchangeSymbol                      = '8';
+        public static final char ConsolidatedTapeAssociation         = '9';
+        public static final char BloombergSymbol                     = 'A';
+        public static final char Wertpapier                          = 'B';
+        public static final char Dutch                               = 'C';
+        public static final char Valoren                             = 'D';
+        public static final char Sicovam                             = 'E';
+        public static final char Belgian                             = 'F';
+        public static final char Common                              = 'G';
+        public static final char ClearingHouse                       = 'H';
+        public static final char ISDAFpMLSpecification               = 'I';
+        public static final char OptionPriceReportingAuthority       = 'J';
+        public static final char ISDAFpMLURL                         = 'K';
+        public static final char LetterOfCredit                      = 'L';
+        public static final char MarketplaceAssignedIdentifier       = 'M';
+        public static final char MarkitREDEntityCLIP                 = 'N';
+        public static final char MarkitREDPairCLIP                   = 'P';
+        public static final char CFTCCommodityCode                   = 'Q';
+        public static final char ISDACommodityReferencePrice         = 'R';
+        public static final char FinancialInstrumentGlobalIdentifier = 'S';
+        public static final char LegalEntityIdentifier               = 'T';
+        public static final char Synthetic                           = 'U';
+        public static final char FidessaInstrumentMnemonic           = 'V';
+        public static final char IndexName                           = 'W';
+        public static final char UniformSymbol                       = 'X';
 
         private SecurityIDSourceValues() {
         }
@@ -224,10 +224,10 @@ public class FIXLatestEnumerations {
      */
     public static class IOIQtyValues {
 
-        public static final String Small               = "S";
-        public static final String Medium              = "M";
-        public static final String Large               = "L";
-        public static final String UndisclosedQuantity = "U";
+        public static final char Small               = 'S';
+        public static final char Medium              = 'M';
+        public static final char Large               = 'L';
+        public static final char UndisclosedQuantity = 'U';
 
         private IOIQtyValues() {
         }
@@ -398,18 +398,18 @@ public class FIXLatestEnumerations {
      */
     public static class SettlTypeValues {
 
-        public static final String Regular              = "0";
-        public static final String Cash                 = "1";
-        public static final String NextDay              = "2";
-        public static final String TPlus2               = "3";
-        public static final String TPlus3               = "4";
-        public static final String TPlus4               = "5";
-        public static final String Future               = "6";
-        public static final String WhenAndIfIssued      = "7";
-        public static final String SellersOption        = "8";
-        public static final String TPlus5               = "9";
-        public static final String BrokenDate           = "B";
-        public static final String FXSpotNextSettlement = "C";
+        public static final char Regular              = '0';
+        public static final char Cash                 = '1';
+        public static final char NextDay              = '2';
+        public static final char TPlus2               = '3';
+        public static final char TPlus3               = '4';
+        public static final char TPlus4               = '5';
+        public static final char Future               = '6';
+        public static final char WhenAndIfIssued      = '7';
+        public static final char SellersOption        = '8';
+        public static final char TPlus5               = '9';
+        public static final char BrokenDate           = 'B';
+        public static final char FXSpotNextSettlement = 'C';
 
         private SettlTypeValues() {
         }
@@ -1928,13 +1928,13 @@ public class FIXLatestEnumerations {
      */
     public static class TradingSessionIDValues {
 
-        public static final String Day        = "1";
-        public static final String HalfDay    = "2";
-        public static final String Morning    = "3";
-        public static final String Afternoon  = "4";
-        public static final String Evening    = "5";
-        public static final String AfterHours = "6";
-        public static final String Holiday    = "7";
+        public static final char Day        = '1';
+        public static final char HalfDay    = '2';
+        public static final char Morning    = '3';
+        public static final char Afternoon  = '4';
+        public static final char Evening    = '5';
+        public static final char AfterHours = '6';
+        public static final char Holiday    = '7';
 
         private TradingSessionIDValues() {
         }
@@ -3434,20 +3434,20 @@ public class FIXLatestEnumerations {
      */
     public static class ClearingFeeIndicatorValues {
 
-        public static final String FirstYearDelegate             = "1";
-        public static final String SecondYearDelegate            = "2";
-        public static final String ThirdYearDelegate             = "3";
-        public static final String FourthYearDelegate            = "4";
-        public static final String FifthYearDelegate             = "5";
-        public static final String SixthYearDelegate             = "9";
-        public static final String CBOEMember                    = "B";
-        public static final String NonMemberAndCustomer          = "C";
-        public static final String EquityMemberAndClearingMember = "E";
-        public static final String FullAndAssociateMember        = "F";
-        public static final String Firms106HAnd106J              = "H";
-        public static final String GIM                           = "I";
-        public static final String Lessee106FEmployees           = "L";
-        public static final String AllOtherOwnershipTypes        = "M";
+        public static final char FirstYearDelegate             = '1';
+        public static final char SecondYearDelegate            = '2';
+        public static final char ThirdYearDelegate             = '3';
+        public static final char FourthYearDelegate            = '4';
+        public static final char FifthYearDelegate             = '5';
+        public static final char SixthYearDelegate             = '9';
+        public static final char CBOEMember                    = 'B';
+        public static final char NonMemberAndCustomer          = 'C';
+        public static final char EquityMemberAndClearingMember = 'E';
+        public static final char FullAndAssociateMember        = 'F';
+        public static final char Firms106HAnd106J              = 'H';
+        public static final char GIM                           = 'I';
+        public static final char Lessee106FEmployees           = 'L';
+        public static final char AllOtherOwnershipTypes        = 'M';
 
         private ClearingFeeIndicatorValues() {
         }
@@ -6046,16 +6046,16 @@ public class FIXLatestEnumerations {
      */
     public static class ApplVerIDValues {
 
-        public static final String FIX27    = "0";
-        public static final String FIX30    = "1";
-        public static final String FIX40    = "2";
-        public static final String FIX41    = "3";
-        public static final String FIX42    = "4";
-        public static final String FIX43    = "5";
-        public static final String FIX44    = "6";
-        public static final String FIX50    = "7";
-        public static final String FIX50SP1 = "8";
-        public static final String FIX50SP2 = "9";
+        public static final char FIX27    = '0';
+        public static final char FIX30    = '1';
+        public static final char FIX40    = '2';
+        public static final char FIX41    = '3';
+        public static final char FIX42    = '4';
+        public static final char FIX43    = '5';
+        public static final char FIX44    = '6';
+        public static final char FIX50    = '7';
+        public static final char FIX50SP1 = '8';
+        public static final char FIX50SP2 = '9';
 
         private ApplVerIDValues() {
         }
@@ -6226,9 +6226,9 @@ public class FIXLatestEnumerations {
      */
     public static class SettlMethodValues {
 
-        public static final String CashSettlementRequired     = "C";
-        public static final String PhysicalSettlementRequired = "P";
-        public static final String Election                   = "E";
+        public static final char CashSettlementRequired     = 'C';
+        public static final char PhysicalSettlementRequired = 'P';
+        public static final char Election                   = 'E';
 
         private SettlMethodValues() {
         }
@@ -7683,10 +7683,10 @@ public class FIXLatestEnumerations {
      */
     public static class ObligationTypeValues {
 
-        public static final String Bond        = "0";
-        public static final String ConvertBond = "1";
-        public static final String Mortgage    = "2";
-        public static final String Loan        = "3";
+        public static final char Bond        = '0';
+        public static final char ConvertBond = '1';
+        public static final char Mortgage    = '2';
+        public static final char Loan        = '3';
 
         private ObligationTypeValues() {
         }
@@ -9000,10 +9000,10 @@ public class FIXLatestEnumerations {
      */
     public static class UnderlyingObligationTypeValues {
 
-        public static final String Bond            = "0";
-        public static final String ConvertibleBond = "1";
-        public static final String Mortgage        = "2";
-        public static final String Loan            = "3";
+        public static final char Bond            = '0';
+        public static final char ConvertibleBond = '1';
+        public static final char Mortgage        = '2';
+        public static final char Loan            = '3';
 
         private UnderlyingObligationTypeValues() {
         }
@@ -12003,7 +12003,7 @@ public class FIXLatestEnumerations {
      */
     public static class StreamCommoditySettlDateRollUnitValues {
 
-        public static final String Day = "D";
+        public static final char Day = 'D';
 
         private StreamCommoditySettlDateRollUnitValues() {
         }
